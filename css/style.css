@@ -1,0 +1,177 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*
+
+
+
+This is where my code starts :)
+
+
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    /* 45deg, to right, to left */
+    background-image: linear-gradient(#EFEDED, #9A9494);
+}
+
+#home-h1 {
+    color:red;
+    font-size: 70px;
+    margin: 0px;
+    background-color: blue;
+    text-align: center;
+}
+
+
+.title {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+    vertical-align: center;
+}
+
+.wrapper {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.wrapper ul {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.wrapper ul li {
+    list-style: none;
+    float: left;
+    
+}
+
+.wrapper ul li a {
+    color: white;
+    font-family: arial;
+    display: block;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.wrapper li a:hover {
+    background-color: #111111;
+
+  }
+
+.wrapper #sign-up-button {
+    float: right;
+}
+
+p {
+    padding: 10px;
+}
