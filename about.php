@@ -12,6 +12,7 @@
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
+                <li><a href="game.php">Game</a></li>
                 <li><a href="about.php">About</a></li> 
                 <li><a href="contact.php">Contact Us</a></li>
                 <li id="sign-up-button"><a href="signup.php">Sign Up</a></li>
