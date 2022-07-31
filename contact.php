@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<!--this is a comment-->
+<body>
+    <div class="wrapper">
+        <nav>
+                <ul>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li> 
+                    <li><a href="contact.php">Contact Us</a></li>
+                    <li id="sign-up-button"><a href="signup.php">Sign Up</a></li>
+                </ul>
+        </nav>
+        <h1 class="title">Contact</h1>
+        <p class="p-welcome">Name: Jan Fiedler</p>
+        <p class="p-welcome">Email: janfiedler812@gmail.com </p>
+    </div>
+</body>
+
+</html>
