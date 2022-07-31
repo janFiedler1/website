@@ -112,6 +112,7 @@ This is where my code starts :)
 
 html {
     height: 100%;
+    width: 100%
 }
 
 body {
@@ -139,6 +140,12 @@ body {
 }
 
 .wrapper {
+    height: 100%;
+    width: 100%;
+    background-image:  url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -168,10 +175,27 @@ body {
 
   }
 
-.wrapper #sign-up-button {
+.wrapper #account {
     float: right;
+}
+.wrapper #login-button {
+    float: inline-end;
 }
 
 p {
     padding: 10px;
+}
+
+.signup-form {
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #cccccc;
+    padding: 5px;
+
+}
+
+.plz {
+    font-size: x-large;
 }
