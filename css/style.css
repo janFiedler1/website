@@ -187,15 +187,39 @@ p {
 }
 
 .signup-form {
-    width: 380px;
+    font-family: arial;
+    width: 880px;
     height: 480px;
     position: relative;
-    margin: 6% auto;
-    background: #cccccc;
-    padding: 5px;
+    margin: 0px auto;
+    background-image: linear-gradient(#9A9494, #EFEDED);
+    align-items: center;
+    border-radius: 0px 0px 25px 25px;
+    
 
 }
 
-.plz {
-    font-size: x-large;
+.signup-form .input-form-text {
+    font-family: arial;
+    margin: 5px auto;
+    padding: 10px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup-form .input-form-button {
+    font-family: arial;
+    margin: 10px auto;
+    padding: 10px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 15px 15px 15px;
+    border: none;
+}
+
+.signup-form .input-form-button:hover {
+    background-color: #8e8787;
+    cursor: pointer;
 }
