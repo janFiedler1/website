@@ -17,6 +17,15 @@
 
     <?php } ?>
 
+    <?php
+    $name = "Jan Fiedler";
+    $bool = true;   // also 1 or 0
+
+    // array
+    $names = array("Jan", "Melynda", "Mr. Moose");
+    //$array = [1,2,3];
+    echo name;
+    ?>
 <?php 
     include_once 'footer.php';
 ?>

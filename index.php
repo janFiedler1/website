@@ -2,7 +2,7 @@
     include_once 'header.php';
 ?>
 
-        <h2 class="title" id="welcome">Welcome to my portfolio!</h2>
+        <h2 class="title" id="welcome">Welcome to my portfolio my friend!</h2>
         <!--img src="pictures/banner.jpg" alt="math"-->
         <p title="hi :)">Welcome to my portfolio, feel free to take a look around</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur volutpat tellus urna, eget convallis magna sagittis nec. Sed cursus velit mattis dolor dapibus, ornare efficitur quam finibus. Maecenas sollicitudin orci eget nibh volutpat, ut vulputate metus iaculis. Nulla felis odio, aliquet id velit ut, semper luctus sapien. Vestibulum velit tortor, iaculis sed arcu in, sagittis gravida nisl. Cras a enim augue. Etiam iaculis nunc nibh, nec lacinia metus molestie vitae. Quisque nec dui id purus consectetur mollis a vel est. Curabitur laoreet lorem et imperdiet tristique. Mauris interdum dolor et vestibulum auctor. Mauris luctus mattis nunc, at semper mauris gravida sit amet. Pellentesque vulputate ullamcorper est sed commodo. Proin elementum augue in hendrerit sodales. Maecenas sagittis odio nec erat vestibulum, mollis malesuada metus efficitur.
