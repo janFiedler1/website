@@ -19,7 +19,7 @@ class VinylController extends AbstractController
 
         ];
         //dd($tracks);
-        dump($tracks);
+        //dump($tracks);
             
         return $this->render('vinyl/homepage.html.twig', [
             'title' => 'PB & Jams',
@@ -31,12 +31,12 @@ class VinylController extends AbstractController
     #[Route('/browse/{slug}')]  //{coolMusicGenre}
     public function browse(string $slug = null): Response
     {
-        if($slug){
-            $title = "Genre: ".u(str_replace('-', ' ', $slug))->title(true);            
-        }
-        else{
-            $title = "All genres";
-        }
-        return new Response($title);
+        $genre = $slug ? u(str_replace('-', ' ', $slug))->title(true) : null;
+        return $this->render('vinyl/browse.html.twig', [
+            'genre' => $genre,
+        ]);
     }
+
+
+    
 }
